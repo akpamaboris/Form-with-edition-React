@@ -43,3 +43,26 @@ body {
   color: red;
   padding-top: 30px;
 }
+
+.results p {
+  padding: 20px;
+  background-color: grey;
+  margin: 20px;
+  border-radius: 30px;
+}
+
+.results {
+  margin: 70px;
+}
+
+.results button {
+  background-color: blueviolet;
+  width: 230px;
+  border-radius: 30px;
+  height: 50px;
+}
+
+.results h1 {
+  font-size: 50px;
+  margin-bottom: 60px;
+}

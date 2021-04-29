@@ -27,7 +27,7 @@ const Form = () => {
 
   const submitForm = (event5) => {
     event5.preventDefault();
-    if (password === confPassword) {
+    if (password.length > 0 && password === confPassword) {
       setAuthentification(true);
     } else if (password !== confPassword) {
       setAuthentification(false);
