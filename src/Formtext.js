@@ -16,7 +16,7 @@ const FormText = ({
   handPassConf,
 }) => {
   return (
-    <div>
+    <div className="FormText">
       {/* {name}
       <br />
       {email}
@@ -69,9 +69,12 @@ const FormText = ({
         </label>
         <label>
           <p>Submit</p>
-          <input placeholder="submit" type="submit" />
+          <input className="Sub" placeholder="submit" type="submit" />
         </label>
       </form>
+      {password === confPassword ? null : (
+        <div className="redAlert">password don't match</div>
+      )}
     </div>
   );
 };
